@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+#card::-webkit-scrollbar{
+   width: 20px;
+}
