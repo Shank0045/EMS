@@ -10,7 +10,7 @@ const AuthProvider = ({children}) => {
   
   // localStorage.clear()
 
-  // setlocalstorage()
+  setlocalstorage()
 
     const [Userdata, setUserdata] = useState(null);
 
