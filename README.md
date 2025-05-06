@@ -1,12 +1,90 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👨‍💼 Admin Login
+Email: admin@example.com
 
-Currently, two official plugins are available:
+Password: 123
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+👷 Employee Logins
+Name	Email	Password
+Arjun Sharma	arjun@s.com	123
+Kavya Menon	kavya.menon@example.com	123
+Rahul Verma	rahul.verma@example.com	123
+Isha Patel	isha.patel@example.com	123
+Ananya Reddy	ananya.reddy@example.com	123
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+🧑‍💼 Employee Management System (EMS)
+📌 Overview
+The Employee Management System (EMS) is a React-based web application that allows an admin (or employer) to manage employee task assignments. Admins can assign tasks only to existing employees, while employees (clients) can log in to view their assigned tasks.
+
+All data is stored in the browser’s local storage, making it lightweight and fast for small team use or prototyping.
+
+✨ Features
+🔐 Admin
+Secure login with predefined credentials
+
+Add tasks for existing employees only
+
+View list of all employees and their task statuses
+
+👤 Employee
+Log in to view assigned tasks
+
+See task details: category, status, completion, and intensity
+
+Filter or review tasks (based on implementation)
+
+🛠️ Tech Stack
+React – Component-based UI
+
+Tailwind CSS – Utility-first styling
+
+React Router DOM – Routing between Admin/Employee views
+
+React Icons – Beautiful and scalable icons
+
+Local Storage – Data persistence without backend
+
+🚀 Live Demo
+Access the live version: https://shank0045.github.io/EMS/
+
+📦 Installation
+To run locally:
+
+bash
+Copy
+Edit
+git clone https://github.com/shank0045/EMS.git
+cd EMS
+npm install
+npm start
+Then open http://localhost:3000 in your browser.
+
+📁 Folder Structure
+bash
+Copy
+Edit
+/src
+ ┣ /components        # Reusable UI components
+ ┣ /pages             # Admin and Employee dashboard views
+ ┣ /data              # Local JSON data for employees/admin
+ ┣ App.js             # Main app with routes
+ ┣ index.js           # React entry point
+ ┗ tailwind.config.js # Tailwind CSS configuration
+🧪 Credentials (Default)
+Admin Login
+Email: admin@example.com
+Password: 123
+
+Employee Logins
+Predefined in local storage (see employee array)
+
+💾 Data Storage
+All data is saved using localStorage
+
+Automatically initialized on first load via useEffect
+
+📝 License
+This project is under the MIT License. Feel free to modify and reuse!
