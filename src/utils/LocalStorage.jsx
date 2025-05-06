@@ -4,7 +4,7 @@ let Employee= [
   {
     "id": 1,
     "name": "Arjun Sharma",
-    "email": "shank@1.com",
+    "email": "arjun@s.com",
     "password": "123",
     "role": "employee",
     "tasks": [

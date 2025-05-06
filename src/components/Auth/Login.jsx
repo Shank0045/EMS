@@ -25,11 +25,28 @@ const Login = ({ handle }) => {
 
   return (
     <div className=" w-full  h-screen flex items-center justify-center  text-white bg-black ">
-      <div className=" w-[70vw] md:w-[80vw] lg:w-[28vw] flex items-center justify-between flex-col h-[90vh]  md:h-[89vh] border-[1px] border-red-500 ">
+
+
+
+
+      <div className=" w-[85vw] md:w-[80vw] lg:w-[28vw] flex items-center justify-between flex-col  h-[90vh]  md:h-[89vh] border-[1px] border-red-500 ">
+
+
+
+
         <h1 className=" w-full h-[100px] text-[40px] lg:text-[40px]  md:text-[40px] font-[700] text-red-500 p-[20px] ">
           {" "}
           Log In
         </h1>
+
+
+      <div className="w-[70vw]  md:w-[28vw] text-xl text-center flex items-center justify-center h-[20vh] font-[500]">
+        
+     For E-mail and Password, Check out Readme.Md File 
+
+      </div>
+
+
 
         <form
           className=" mb-[100px] flex flex-col w-full  lg:w-[37vw] md:w-[70vw]  justify-between items-center  "
