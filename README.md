@@ -1,42 +1,42 @@
 
-👨‍💼 Admin Login
+👨‍💼 Admin Login <br></br>
 Email: admin@example.com
-
+ <br></br>
 Password: 123
 
 
-👷 Employee Logins
-Name	Email	Password
-Arjun Sharma	arjun@s.com	123
-Kavya Menon	kavya.menon@example.com	123
-Rahul Verma	rahul.verma@example.com	123
-Isha Patel	isha.patel@example.com	123
-Ananya Reddy	ananya.reddy@example.com	123
+👷 Employee Logins <br></br>
+Name	Email	Password <br></br>
+Arjun Sharma	arjun@s.com	123 <br></br>
+Kavya Menon	kavya.menon@example.com	123 <br></br>
+Rahul Verma	rahul.verma@example.com	123 <br></br>
+Isha Patel	isha.patel@example.com	123 <br></br>
+Ananya Reddy	ananya.reddy@example.com	123 <br></br>
 
 
 
-🧑‍💼 Employee Management System (EMS)
-📌 Overview
+🧑‍💼 Employee Management System (EMS) <br></br>
+📌 Overview <br></br>
 The Employee Management System (EMS) is a React-based web application that allows an admin (or employer) to manage employee task assignments. Admins can assign tasks only to existing employees, while employees (clients) can log in to view their assigned tasks.
 
 All data is stored in the browser’s local storage, making it lightweight and fast for small team use or prototyping.
 
-✨ Features
-🔐 Admin
+✨ Features <br></br>
+🔐 Admin <br></br>
 Secure login with predefined credentials
 
 Add tasks for existing employees only
 
 View list of all employees and their task statuses
 
-👤 Employee
+👤 Employee <br></br>
 Log in to view assigned tasks
 
 See task details: category, status, completion, and intensity
 
 Filter or review tasks (based on implementation)
 
-🛠️ Tech Stack
+🛠️ Tech Stack <br></br>
 React – Component-based UI
 
 Tailwind CSS – Utility-first styling
@@ -47,10 +47,10 @@ React Icons – Beautiful and scalable icons
 
 Local Storage – Data persistence without backend
 
-🚀 Live Demo
+🚀 Live Demo <br></br>
 Access the live version: https://shank0045.github.io/EMS/
 
-📦 Installation
+📦 Installation <br></br>
 To run locally:
 
 bash
@@ -62,7 +62,7 @@ npm install
 npm start
 Then open http://localhost:3000 in your browser.
 
-📁 Folder Structure
+📁 Folder Structure <br></br>
 bash
 Copy
 Edit
@@ -73,10 +73,10 @@ Edit
  ┣ App.js             # Main app with routes
  ┣ index.js           # React entry point
  ┗ tailwind.config.js # Tailwind CSS configuration
-🧪 Credentials (Default)
-Admin Login
-Email: admin@example.com
-Password: 123
+🧪 Credentials (Default) <br></br>
+Admin Login <br></br>
+Email: admin@example.com <br></br>
+Password: 123 <br></br>
 
 Employee Logins
 Predefined in local storage (see employee array)
